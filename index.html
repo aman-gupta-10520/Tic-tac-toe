@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><title>Tic-Tac-Toe</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container" id="container">
+  <div class="column">
+<div id="1" onclick="even(1)" class="in"></div>
+<div id="2" onclick="even(2)" class="in"></div>
+<div id="3" onclick="even(3)" class="in"></div>
+
+
+  </div>
+  <div class="column">
+    <div id="4" onclick="even(4)" class="in"></div>
+    <div id="5" onclick="even(5)" class="in"></div>
+    <div id="6" onclick="even(6)" class="in"></div>
+
+  </div>
+  <div class="column">
+    <div id="7" onclick="even(7)" class="in"></div>
+    <div id="8" onclick="even(8)" class="in"></div>
+    <div id="9" onclick="even(9)" class="in"></div>
+
+  </div>
+  <div class="reset" onclick="again()">
+  <button><b>Reset</button>
+  </div>
+</div>
+
+<div class="win" id="win"><h2 id="demo"></h2>
+<button id="again" onclick="again()">Play Again?</button>
+</div>
+<script type="text/javascript" src='script.js'>
+
+
+</script>
+</body>
+</html>
